@@ -1,0 +1,56 @@
+body{font-family: 'Montserrat',sans-serif;
+    font-weight: 300;}
+.contents{
+    background-color: white;
+    height: fit-content;
+    min-height: 13cm;
+}
+.tagline{
+    background-image: url("onerealhktag.jpg");
+    background-size: cover;
+    height: 500px;
+    background-repeat: no-repeat;
+    color: teal;
+    margin-top: 90px;
+    min-height: 700px;
+    text-align: center;
+    padding-top: 250px;
+    
+}
+.tagline :hover{
+    color: black;
+}
+.taglinebutton{
+    background-color: rgb(250, 44, 89);
+    color: white;
+    padding: 20px;
+    border-radius: 7px;
+}
+.taglinebutton :hover{
+    background-color: rgb(26, 24, 24);
+    color: white;
+}
+.container{
+    max-width: 150%;
+}
+
+@media (max-width: 815px){
+    .tagline{
+        background-image: url("onerealhktag.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: teal;
+        padding-top: 150px;
+        margin-top: 0px;
+        min-height: 400px;
+    }
+    .taglinebutton{
+        background-color: tomato;
+        color: white;
+        padding: 20px;
+        margin-top: 50px;
+        border-radius: 7px;
+    }
+
+
+}

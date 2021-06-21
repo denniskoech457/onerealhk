@@ -1,0 +1,36 @@
+.all{
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
+.rights{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+   
+}
+.tag{
+    margin: 81px;
+   }
+   .bg{
+    color: white;
+    margin: 5px;
+}
+   @media (max-width: 815px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        
+        color: white;
+        
+        padding: 20px;
+    }
+    .tag{
+        margin: 10px;
+       }
+   }
