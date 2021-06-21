@@ -9,7 +9,7 @@
 
 <?php
    
-   include "assets/header.php"
+   include "Assets/header.php"
 
 ?>
 
@@ -26,6 +26,6 @@
 </section>
 <?php
    
-   include "assets/footer.php"
+   include "Assets/footer.php"
 
 ?>
